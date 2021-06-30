@@ -5,13 +5,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        gray: {
-          req: "#F9F9FB",
+        red: {
           buttonred: "#F44957",
         },
+        gray: {
+          reqGray: "#F9F9FB",
+        },
+      },
+      borderWidth: {
+        6: "6px",
       },
       borderRadius: {
-        brreq: "2.5rem",
+        req: "2.8rem",
       },
     },
   },

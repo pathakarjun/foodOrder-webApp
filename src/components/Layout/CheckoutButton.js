@@ -1,8 +1,10 @@
+import Button from "../UI/Button";
+
 const CheckoutButton = (props) => {
   return (
-    <button class="bg-buttonred hover:bg-red-700 text-2xl text-center rounded-3xl shadow-2xl text-white px-20 py-4">
+    <Button className="hover:bg-red-700 text-2xl text-center px-20 py-4">
       Checkout
-    </button>
+    </Button>
   );
 };
 
