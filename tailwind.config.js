@@ -17,6 +17,7 @@ module.exports = {
       },
       borderRadius: {
         req: "2.8rem",
+        hpic: "3.5rem",
       },
     },
   },
