@@ -4,7 +4,7 @@ const Button = (props) => {
   return (
     <button
       type={props.type || "button"}
-      className={`${"bg-red-buttonred rounded-3xl shadow-2xl text-white"} ${
+      className={`${"bg-red-buttonred rounded-2xl shadow-2xl text-white"} ${
         props.className
       }`}
       onClick={props.onClick}

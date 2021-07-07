@@ -12,10 +12,10 @@ const Profile = (props) => {
       <ul>
         <img
           src={userAvatar}
-          className="object-center h-28 w-28 rounded-req border-6 border-white"
+          className="object-contain h-28 w-28 rounded-req border-6 border-white"
         />
       </ul>
-      <ul className="text-3xl font-sans">{USER_DATA.name}</ul>
+      <ul className="text-2xl font-medium font-sans">{USER_DATA.name}</ul>
       <ul className="grid grid-cols-1 text-xs justify-items-center text-gray-500">
         <ul>{USER_DATA.staddress}</ul>
         <ul>{USER_DATA.state_country}</ul>

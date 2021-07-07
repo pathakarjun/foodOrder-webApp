@@ -1,5 +1,5 @@
 import headImage from "../../Asset/usedImages/IMG_header.jpeg";
-import FoodContainer from "../UI/FoodContainer";
+import FoodItems from "../Foods/FoodItems";
 
 const HeroPage = (props) => {
   return (
@@ -10,6 +10,7 @@ const HeroPage = (props) => {
         src={headImage}
         className="object-cover object-buttom h-64 w-full rounded-hpic pb-10"
       ></img>
+      <FoodItems />
     </div>
   );
 };
